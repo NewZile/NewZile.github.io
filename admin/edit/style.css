@@ -1,0 +1,33 @@
+.gradient-custom-2 {
+    background: rgb(0, 0, 0);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+.wa:hover {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(3, 69, 252);
+}
+
+.wa {
+    text-decoration: none;
+}
+
+.message.error {
+    color: red;
+}
+
+.message.success {
+    color: green;
+}
